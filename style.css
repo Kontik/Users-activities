@@ -1,0 +1,45 @@
+body {
+    font-family: Arial;
+}
+
+.dropzone {
+    margin: 30px auto;
+    width: 300px;
+    height: 100px;
+    line-height: 90px;
+    text-align: center;
+    background: #cecece;
+    color: #000;
+    font-size: 30px;
+    border: 5px dashed #556677;
+}
+.dropzone.dragover {
+    background:  #FFFBA0;
+}
+
+.chart {
+    margin: 30px auto;
+    width: 600px;
+    height: 400px;
+}
+
+.controls {
+    margin: 50px auto;
+    width: 600px;
+    text-align: center;
+}
+
+.control-pan {
+    margin: 0 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+.control-pan h4 {
+    margin: 0 0 10px;
+}
+.control-pan ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+}

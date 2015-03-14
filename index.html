@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Activity</title>
+    
+    <script type="text/javascript" src="bower_components/lodash/lodash.min.js"></script>
+    <script type="text/javascript" src="bower_components/Chart.js/Chart.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+    <script type="text/javascript" src="bower_components/angular-chart.js/dist/angular-chart.min.js"></script>
+    <link rel="stylesheet" href="bower_components/angular-chart.js/dist/angular-chart.css">
+
+    <script type="text/javascript" src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body ng-app="app" ng-controller="MainCtrl">
+    <div class="dropzone" dropzone>
+        Drop file here
+    </div>
+    <br>
+    <div class="chart">
+        <canvas id="bar" class="chart chart-bar" data="chart.data" labels="chart.labels"></canvas>
+    </div>
+    <div class="controls">
+        <div class="control-pan">
+            <h4>Users</h4>
+            <ul>
+                <li ng-repeat="(key, val) in users">
+                    <input type="checkbox" ng-model="users[key]"> <span>{{key}}</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="control-pan">
+            <h4>Tasks</h4>
+            <ul>
+                <li ng-repeat="(key, val) in tasks">
+                    <input type="checkbox" ng-model="tasks[key]"> <span>{{key}}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

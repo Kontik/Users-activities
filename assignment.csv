@@ -1,0 +1,9 @@
+USER, UT_START, UT_END, URL, TASK
+John, 0, 30, google.com/1, Work hard
+John, 35, 55, google.com/2, Work hard
+John, 100, 150, google.com/?q=asdqwezxcasdq, Work hard
+John, 70, 88, ffoo.excample.com, Work
+Nick, 0, 80, yahoo.com/some-folder, Work hard
+Nick, 100, 130, bing.com/something-cool, Work hard
+Nick, 90, 95, whatever.com, Drink tea
+Alice, 0, 150, google.com, Drink tea

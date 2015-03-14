@@ -1,0 +1,11 @@
+{
+  "name": "Test",
+  "authors": [
+    "Vovas"
+  ],
+  "devDependencies": {},
+  "dependencies": {
+    "angular-chart.js": "~0.5.3",
+    "lodash": "~3.5.0"
+  }
+}
